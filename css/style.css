@@ -32,8 +32,7 @@ footer ul li a{
     font-style: italic;
     font-size: 15px;
     color:rgb(15, 14, 14);
-}
- 
+    }
 
 
 header img{
@@ -107,7 +106,17 @@ footer img{
 
     
 }
+/*movimiento */
+.movimiento{
+    transition: all 1.5s;
+}
 
+
+.movimiento:hover{
+
+    transform: translate(10px, 10px);
+    transform: scale(1.2);
+}
 
 
  
