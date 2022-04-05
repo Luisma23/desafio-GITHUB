@@ -1,6 +1,7 @@
 
 header{
     nav{
+        
         ul{
             li{
                 a{
@@ -11,6 +12,18 @@ header{
 
                 }
             }
+        }
+    }
+}
+div{
+    header{
+        nav{
+            display:flex;
+            flex-direction:row;
+            justify-content:baseline;
+            align-items:flex-start;
+            background-color: rgb(25, 65, 25); 
+
         }
     }
 }

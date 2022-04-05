@@ -4,6 +4,14 @@ header nav ul li a {
   color: rgb(15, 14, 14);
 }
 
+div header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  align-items: flex-start;
+  background-color: rgb(25, 65, 25);
+}
+
 footer ul li a {
   font-style: italic;
   font-size: 15px;

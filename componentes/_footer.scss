@@ -1,5 +1,11 @@
 
 footer{
+        
+    display:flex;
+         flex-direction:row;
+         justify-content:baseline;
+         align-items:center;
+         background-color:rgb(25, 65, 25);
     ul{
         li{
             a{
